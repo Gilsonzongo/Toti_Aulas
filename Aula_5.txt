@@ -1,0 +1,115 @@
+    1  clear
+    2  git log
+    3  git log --pretty=oneline
+    4  git log --stat
+    5  git log -p
+    6  git log --pretty-oneline -2
+    7  git log --pretty=oneline -2
+    8  git log --pretty=oneline -3
+    9  git log --since=2.minutes
+   10  git log --since=20.minutes
+   11  git log --since=30.minutes
+   12  git log --author='Gilson Agostinho'
+   13  git status
+   14  touch teste
+   15  git add teste
+   16  git status
+   17  git commit -m 'Commit de teste'
+   18  git log
+   19  git reset --soft HEAD~
+   20  git log
+   21  git status
+   22  git commit -m 'Commit de teste'
+   23  git log
+   24  git reset --hard HEAD~
+   25  git log
+   26  git status
+   27  git log --pretty=oneline
+   28  git checkout HEAD~~
+   29  git ststus
+   30  git status
+   31  git log
+   32  ls
+   33  git checkout master 
+   34  git checkout HEAD~2
+   35  git log
+   36  git checkout HEAD~
+   37  git checkout master
+   38  clear
+   39  mkdir .vscode
+   40  touch conf.txt
+   41  ls .vscode/
+   42  ls .vscode/conf.txt
+   43  mv conf.txt .vscode/
+   44  ls .vscode/
+   45  ls
+   46  ls -a
+   47  git status
+   48  echo ' .vscode/' > .gitignore
+   49  git status
+   50  touch pessoal.conf
+   51  git status
+   52  echo 'pessoal.conf' >> .gitignore
+   53  git status
+   54  echo ' .vscode/' > .gitignore
+   55  git status
+   56  echo '.vscode/' > .gitignore
+   57  git status
+   58  echo 'pessoal.conf' >> .gitignore
+   59  git status
+   60  git add .gitignore
+   61  git commit -m 'Adicionado arquivo .gitignore'
+   62  git status
+   63  history > Aula_4.txt
+   64  history >
+   65  git status
+   66  git add .
+   67  git commit -m 'Comandos da Aula 4'
+   68  history -c: clear
+   69  history -c: clear
+   70  git
+   71  git status
+   72  git log -2
+   73  git log -p -2
+   74  git log -pretty=oneline -2
+   75  clear
+   76  git branch
+   77  git checkout -b feature
+   78  git branch
+   79  touch Nova_feature
+   80  git status
+   81  git add Nova_feature
+   82  git commit -m 'Adicionando novo feature'
+   83  git log
+   84  git checkout master
+   85  git status 
+   86  gite log
+   87  git log
+   88  touch Continuando_master
+   89  git add continuando_master
+   90  git commit -m 'Adicionando continuacao na master'
+   91  git log
+   92  git checkout feature
+   93  git log
+   94  git checkout -b feature2 master
+   95  git log
+   96  git checkout -d feature2
+   97  git checkout feature2
+   98  git log
+   99  git branch -d feature2
+  100  git checkout master
+  101  git branch -d feature2
+  102  git log
+  103  git checkout feature2
+  104  clear
+  105  git checkout feature
+  106  git log  --pretty=online --graph
+  107  git log --pretty=oneline --graph
+  108  git marge master
+  109  git merge master
+  110  git merge master
+  111  git log
+  112  git log --pretty=oneline --graph
+  113  git reset --hard HEAD~
+  114  git rebase master
+  115  history > Aula_5.txt
