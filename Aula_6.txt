@@ -1,0 +1,194 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  ls
+    6  cd Desktop/
+    7  cd ~
+    8  mkdir comados 
+    9  ls
+   10  cd comandos/
+   11  cat > readme.md
+   12  git config --global user.name 'Gilson Agostinho'
+   13  git config global user.email 'gilsonagostinho1@gmail.com'
+   14  git config --global user.name 'Gilson Agostinho'
+   15   git config global user.email 'gilsonagostinho1@gmail.com'>
+   16  clear
+   17  git log
+   18  git log --pretty=oneline
+   19  git log --stat
+   20  git log -p
+   21  git log --pretty-oneline -2
+   22  git log --pretty=oneline -2
+   23  git log --pretty=oneline -3
+   24  git log --since=2.minutes
+   25  git log --since=20.minutes
+   26  git log --since=30.minutes
+   27  git log --author='Gilson Agostinho'
+   28  git status
+   29  touch teste
+   30  git add teste
+   31  git status
+   32  git commit -m 'Commit de teste'
+   33  git log
+   34  git reset --soft HEAD~
+   35  git log
+   36  git status
+   37  git commit -m 'Commit de teste'
+   38  git log
+   39  git reset --hard HEAD~
+   40  git log
+   41  git status
+   42  git log --pretty=oneline
+   43  git checkout HEAD~~
+   44  git ststus
+   45  git status
+   46  git log
+   47  ls
+   48  git checkout master 
+   49  git checkout HEAD~2
+   50  git log
+   51  git checkout HEAD~
+   52  git checkout master
+   53  clear
+   54  mkdir .vscode
+   55  touch conf.txt
+   56  ls .vscode/
+   57  ls .vscode/conf.txt
+   58  mv conf.txt .vscode/
+   59  ls .vscode/
+   60  ls
+   61  ls -a
+   62  git status
+   63  echo ' .vscode/' > .gitignore
+   64  git status
+   65  touch pessoal.conf
+   66  git status
+   67  echo 'pessoal.conf' >> .gitignore
+   68  git status
+   69  echo ' .vscode/' > .gitignore
+   70  git status
+   71  echo '.vscode/' > .gitignore
+   72  git status
+   73  echo 'pessoal.conf' >> .gitignore
+   74  git status
+   75  git add .gitignore
+   76  git commit -m 'Adicionado arquivo .gitignore'
+   77  git status
+   78  history > Aula_4.txt
+   79  history >
+   80  git status
+   81  git add .
+   82  git commit -m 'Comandos da Aula 4'
+   83  history -c: clear
+   84  history -c: clear
+   85  git
+   86  git status
+   87  git log -2
+   88  git log -p -2
+   89  git log -pretty=oneline -2
+   90  clear
+   91  git branch
+   92  git checkout -b feature
+   93  git branch
+   94  touch Nova_feature
+   95  git status
+   96  git add Nova_feature
+   97  git commit -m 'Adicionando novo feature'
+   98  git log
+   99  git checkout master
+  100  git status 
+  101  gite log
+  102  git log
+  103  touch Continuando_master
+  104  git add continuando_master
+  105  git commit -m 'Adicionando continuacao na master'
+  106  git log
+  107  git checkout feature
+  108  git log
+  109  git checkout -b feature2 master
+  110  git log
+  111  git checkout -d feature2
+  112  git checkout feature2
+  113  git log
+  114  git branch -d feature2
+  115  git checkout master
+  116  git branch -d feature2
+  117  git log
+  118  git checkout feature2
+  119  clear
+  120  git checkout feature
+  121  git log  --pretty=online --graph
+  122  git log --pretty=oneline --graph
+  123  git marge master
+  124  git merge master
+  125  git merge master
+  126  git log
+  127  git log --pretty=oneline --graph
+  128  git reset --hard HEAD~
+  129  git rebase master
+  130  history > Aula_5.txt
+  131  git add Aula_5.txt
+  132  git commit -m 'comando da Aula 5'
+  133  history -c: clear;
+  134  history -c: clear:
+  135  git branch
+  136  git rebase
+  137  clear
+  138  git merge
+  139  git merge
+  140  git rebase
+  141  clear
+  142  ls
+  143  git --version
+  144  clear
+  145  git config --global user.name "Gilson Agostinho"
+  146  git config --global user.email "gilsonagostinho1@hotmail.com"
+  147  git config --list
+  148  ssh-keygen -t ed25519 -C "gilsonagostinho1@hotmail.com"
+  149  ls
+  150  git int
+  151  git init
+  152  git add .
+  153  git status
+  154  git commit -m "Criadas páginas index e vendas"
+  155  git status
+  156  git branch -M main
+  157  clear
+  158  git remote add origin git@github.com:Gilsonzongo/testeGitub.git
+  159  git push -u origin main
+  160  clear
+  161  git status
+  162  git add .
+  163  git status
+  164  git commit -m "Acrenscentado valor das vendas"
+  165  git push
+  166  clear
+  167  git config --global alias.logpg 'log --pretty=online --graph' 
+  168  git logpg
+  169  git config --global alias.logpg 'log --pretty=online --graph'
+  170  git config alias.logpg 'log -pretty=oneline --graph'
+  171  git logpg
+  172  git config -global alias.logpg 'log --pretty=online --graph'
+  173  git config --global alias.logpg 'log --pretty=oneline --graph'
+  174  git logpg
+  175  git config --global alias.logpg 'log --pretty=oneline --graph'
+  176  git logpg
+  177  git config --global alias.logpg 'log -pretty=oneline --graph'
+  178  git logpg
+  179  clear
+  180  git config --global alias.logpg 'log --pretty=oneline --graph'
+  181  git status
+  182  git logpg
+  183  git log --pretty=oneline
+  184  git config alias.CAM "commit -am"
+  185  git CAM
+  186  git tag
+  187  git tag -a v0.1 -m 'Ate a Aula 5'
+  188  git logpg
+  189  git log --pretty=oneline
+  190  git checkout master
+  191  git rabase feature
+  192  git rebase feature
+  193  git log --pretty=oneline
+  194  history > Aula_6.txt
