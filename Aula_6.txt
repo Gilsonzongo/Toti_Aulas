@@ -192,3 +192,16 @@
   192  git rebase feature
   193  git log --pretty=oneline
   194  history > Aula_6.txt
+  195  git add Aula_6.txt
+  196  git remote add origin https://github.com/Gilsonzongo/Curso_Toti.git
+  197  git push
+  198  git push -u origin
+  199  git push -u origin master
+  200  git init
+  201  git add .
+  202  git commit -m 'Curso da Toti'
+  203  git branch -M main
+  204  git remote add origin https://github.com/Gilsonzongo/Curso_Toti.git
+  205  git remote add origin git@github.com:Gilsonzongo/Curso_Toti.git
+  206  git push -u origin main
+  207  history > Aula_6.txt
